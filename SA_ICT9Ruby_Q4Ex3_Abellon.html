@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Exercise 3</title>
+	<style type="text/css">
+		body{
+
+			font-family: 'Open Sans', sans-serif;
+		}
+	</style>
+</head>
+<body style="background-color: #76AED0;">
+<h1 align="center" style="color: #FFFFFF;"> Solving for V1 = 10, V2 = 5</h1>
+<hr>
+	
+<ol type="1.">
+
+<li style="font-size: 2em; color: #FFFFFF;">V1 * V2= <strong id="p1"></strong></li>
+<li style="font-size: 2em; color: #FFFFFF;">V1 + V2 = <strong id="p2"></strong></li>
+<li style="font-size: 2em; color: #FFFFFF;">V1 - V2 = <strong id="p3"></strong></li>
+<li style="font-size: 2em; color: #FFFFFF;">V1 / V2 = <strong id="p4"></strong></li>
+<li style="font-size: 2em; color: #FFFFFF;">V1 % V2 = <strong id="p5"></strong></li>
+
+</ol>
+
+<script>
+	let V1=10, V2=5;
+
+	let total = V1 * V2;
+	let sum = V1 + V2;
+	let diff = V1 - V2;
+	let quotient = V1 / V2;
+	let modules = V1 % V2;
+
+	alert("The total of variable one and variable two is: " + total + "\n" + "The sum of variable one and variable two is: " + sum + "\n" + "The difference of variable one and variable two is: " + diff + "\n" + "The quotient of variable one and variable two is: " + quotient + "\n" + "The module of variable one and variable two is: " + modules + "\n")
+
+	//variable declaration;assignment of values
+	document.getElementById("p1").innerHTML= V1 * V2;
+	document.getElementById("p2").innerHTML= V1 + V2;
+	document.getElementById("p3").innerHTML= V1 - V2;
+	document.getElementById("p4").innerHTML= V1 / V2;
+	document.getElementById("p5").innerHTML= V1 % V2;
+</script>
+</body>
+</html>
